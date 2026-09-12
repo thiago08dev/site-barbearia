@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Barbearia seu nome — Cortes Masculinos Premium</title>
+  <meta name="description" content="Barbearia premium: cortes tradicionais, disfarçados, navalhados, pigmentação, reflexo e pintura. Agende pelo WhatsApp." />
+  <link rel="stylesheet" href="interface.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- MENU FIXO -->
+  <header id="menu">
+    <div class="menu-inner">
+      <a href="#inicio" class="logo">Barbearia <span>seu nome</span></a>
+      <nav class="nav-desktop">
+        <a href="#inicio">Início</a>
+        <a href="#servicos">Cortes e Serviços</a>
+        <a href="#agendar">Agendar</a>
+        <a href="#contato">Contato</a>
+        <a class="btn-ouro" href="#" data-wa="Olá! Quero agendar um horário." target="_blank">Agendar</a>
+      </nav>
+      <button id="btn-menu" aria-label="Abrir menu">☰</button>
+    </div>
+    <nav id="nav-mobile" class="nav-mobile hidden">
+      <a href="#inicio">Início</a>
+      <a href="#servicos">Cortes e Serviços</a>
+      <a href="#agendar">Agendar</a>
+      <a href="#contato">Contato</a>
+      <a class="btn-ouro" href="#" data-wa="Olá! Quero agendar um horário." target="_blank">Agendar Horário</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="inicio" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-tag">Barbearia  seu nome</p>
+      <h1>Seu estilo <span>começa aqui.</span></h1>
+      <p class="hero-sub">Agende seu horário e venha renovar seu visual.</p>
+      <div class="hero-botoes">
+        <a class="btn-ouro grande" href="#" data-wa="Olá! Quero agendar um horário." target="_blank">Agende seu Horário</a>
+        <a class="btn-contorno grande" href="#" data-wa="Olá! Quero mais informações." target="_blank">Entrar em Contato</a>
+      </div>
+    </div>
+    <a href="#servicos" class="seta" aria-label="Ver cortes e serviços">▼</a>
+  </section>
+
+  <!-- SERVIÇOS -->
+  <section id="servicos" class="secao">
+    <p class="tag">Catálogo</p>
+    <h2>Nossos Cortes e Serviços</h2>
+    <div class="divisor"></div>
+
+    <h3 class="categoria"><span>Cortes Tradicionais</span></h3>
+    <div class="grid">
+      <article class="card reveal">
+        <div class="card-img">
+          <!-- TROQUE A URL PELA SUA FOTO -->
+         <video autoplay muted loop playsinline>
+            <source src="0911(2).mp4" type="video/mp4">
+         </video>
+          <span class="preco">R$ 40</span>
+        </div>
+        <div class="card-body">
+          <h4>Corte Padrão</h4>
+          <p>O clássico bem feito: máquina e tesoura com acabamento limpo.</p>
+          <a class="btn-contorno" href="#" data-wa="Olá! Quero agendar: Corte Padrão (R$ 40)." target="_blank">Agendar</a>
+        </div>
+      </article>
+      <article class="card reveal">
+        <div class="card-img">
+          <video autoplay muted loop playsinline>
+          <source src="10.mp4"  alt="Corte Navalhado" />
+          </video>
+          <span class="preco">R$ 50</span>
+        </div>
+
+        <div class="card-body">
+          <h4>Corte Navalhado</h4>
+          <p>Acabamento preciso na navalha, contornos marcados e alinhados.</p>
+          <a class="btn-contorno" href="#" data-wa="Olá! Quero agendar: Corte Navalhado (R$ 50)." target="_blank">Agendar</a>
+      </article>
+
+      </article>
+      <article class="card reveal">
+        <div class="card-img">
+          <video autoplay muted loop playsinline>
+          <source src="11.mp4" alt="Corte Navalhado" />
+          </video>
+          <span class="preco">R$ 50</span>
+        </div>
+        
+        <div class="card-body">
+          <h4>reflexo</h4>
+          <p> técnica de coloração que ilumina os fios de forma sutil.</p>
+          <a class="btn-contorno" href="#" data-wa="Olá! Quero agendar: Corte Navalhado (R$ 50)." target="_blank">Agendar</a>
+      </article>
+
+    </div>
+
+
+    <h3 class="categoria"><span>Cortes Disfarçados</span></h3>
+    <div class="grid">
+      <article class="card reveal">
+        <div class="card-img">
+          <img src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=800" alt="Corte Disfarçado" />
+          <span class="preco">R$ 45</span>
+        </div>
+        <div class="card-body">
+          <h4>Corte Disfarçado</h4>
+          <p>Degradê moderno com transição suave e estilo atual.</p>
+          <a class="btn-contorno" href="#" data-wa="Olá! Quero agendar: Corte Disfarçado (R$ 45)." target="_blank">Agendar</a>
+        </div>
+      </article>
+      <article class="card reveal">
+        <div class="card-img">
+          <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=800" alt="Corte Navalhado Disfarçado" />
+          <span class="preco">R$ 55</span>
+        </div>
+        <div class="card-body">
+          <h4>Corte Navalhado Disfarçado</h4>
+          <p>Degradê com acabamento na navalha para um visual impecável.</p>
+          <a class="btn-contorno" href="#" data-wa="Olá! Quero agendar: Corte Navalhado Disfarçado (R$ 55)." target="_blank">Agendar</a>
+        </div>
+      </article>
+
+      <article class="card reveal">
+        <div class="card-img">
+          <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=800" alt="Corte Navalhado Disfarçado" />
+          <span class="preco">R$ 55</span>
+        </div>
+        <div class="card-body">
+          <h4>Corte Navalhado Disfarçado</h4>
+          <p>Degradê com acabamento na navalha para um visual impecável.</p>
+          <a class="btn-contorno" href="#" data-wa="Olá! Quero agendar: Corte Navalhado Disfarçado (R$ 55)." target="_blank">Agendar</a>
+        </div>
+      </article>
+
+
+    </div>
+
+    <h3 class="categoria"><span>Pigmentação e Coloração</span></h3>
+    <div class="grid">
+      <article class="card reveal">
+        <div class="card-img">
+          <img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=800" alt="Pigmentação" />
+          <span class="preco">R$ 30</span>
+        </div>
+        <div class="card-body">
+          <h4>Pigmentação</h4>
+          <p>Realce dos contornos e falhas para um corte sempre definido.</p>
+          <a class="btn-contorno" href="#" data-wa="Olá! Quero agendar: Pigmentação (R$ 30)." target="_blank">Agendar</a>
+        </div>
+      </article>
+      <article class="card reveal">
+        <div class="card-img">
+          <img src="https://images.unsplash.com/photo-1517832606299-7ae9b720a186?w=800" alt="Reflexo" />
+          <span class="preco">R$ 90</span>
+        </div>
+        <div class="card-body">
+          <h4>Reflexo</h4>
+          <p>Mechas sutis que iluminam o visual com naturalidade.</p>
+          <a class="btn-contorno" href="#" data-wa="Olá! Quero agendar: Reflexo (R$ 90)." target="_blank">Agendar</a>
+        </div>
+      </article>
+      <article class="card reveal">
+        <div class="card-img">
+          <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?w=800" alt="Pintura" />
+          <span class="preco">R$ 120</span>
+        </div>
+        <div class="card-body">
+          <h4>Pintura</h4>
+          <p>Coloração completa para quem quer uma mudança radical.</p>
+          <a class="btn-contorno" href="#" data-wa="Olá! Quero agendar: Pintura (R$ 120)." target="_blank">Agendar</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- CTA AGENDAR -->
+  <section id="agendar" class="cta">
+    <h2>Não deixe para depois. <span>Agende seu horário!</span></h2>
+    <p>Escolha seu corte, escolha seu horário e venha sair da barbearia com o visual que você merece.</p>
+    <a class="btn-ouro grande" href="#" data-wa="Olá! Quero agendar meu horário." target="_blank">Agendar Meu Horário</a>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" class="secao">
+    <p class="tag">Fale conosco</p>
+    <h2>Entre em Contato</h2>
+    <div class="divisor"></div>
+    <div class="grid contato-grid">
+      <a class="card-contato reveal" href="#" data-wa="Olá! Quero falar com o barbeiro." target="_blank">
+        <div class="icone">💬</div><h4>WhatsApp</h4><p id="wa-texto">+55 (11) 99999-9999</p>
+      </a>
+      <a class="card-contato reveal" id="ig-link" href="" target="_blank">
+        <div class="icone">...</div><h4>Instagram</h4><p>@sua barbearia</p>
+      </a>
+      <div class="card-contato reveal">
+        <div class="icone">...</div><h4>Endereço</h4><p>Rua Exemplo, 123 — Centro, saubara/BA</p>
+      </div>
+      <div class="card-contato reveal">
+        <div class="icone">🕒</div><h4>Horário de Funcionamento</h4><p>Seg a Sáb — 9h às 20h</p>
+      </div>
+    </div>
+    <div class="centro">
+      <a class="btn-ouro grande" href="#" data-wa="Olá! Quero falar com o barbeiro." target="_blank">💬 Falar com o Barbeiro</a>
+    </div>
+  </section>
+
+  <!-- RODAPÉ -->
+  <footer>
+    <div class="rodape-grid">
+      <div>
+        <p class="logo">Barbearia <span>seu nome</span></p>
+        <p class="muted">Seu estilo começa aqui. Cortes premium, atendimento de primeira.</p>
+      </div>
+      <div>
+        <p class="rodape-titulo">Contato</p>
+        <p class="muted">📸 @sua barbearia</p>
+        <p class="muted">💬 +55 (11) 99999-9999</p>
+        <p class="muted">📍 Rua Exemplo, 123 — Centro, São Paulo/SP</p>
+      </div>
+      <div>
+        <p class="rodape-titulo">Horário</p>
+        <p class="muted">🕒 Seg a Sáb — 9h às 20h</p>
+      </div>
+    </div>
+    <div class="copyright">© <span id="ano"></span> Barbearia seu nome. Todos os direitos reservados.</div>
+  </footer>
+
+  <script src="interface.js"></script>
+</body>
+</html>
